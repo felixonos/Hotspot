@@ -1,0 +1,121 @@
+
+root, ::before, ::after{
+    margin: 0;
+    padding: 0;
+}
+
+
+.mainbody-1{
+    background-color: rgb(231, 230, 230);
+    
+}
+
+
+/* Container for both header1 and body1 */
+
+.main-header .header1{
+/* float: inline-end; */
+/* margin-top: 200px; */
+/* text-align: center; */
+padding-left: 2rem;
+}
+
+.main-header{
+    display: flex;
+}
+
+
+
+
+.header{
+    font-family:'Courier New', Courier, monospace ;
+    color: rgb(0, 153, 255);
+    /* background-color: hotpink; */
+}
+
+h2{
+    width: auto;
+    line-height: 28px;
+    font-size: 24px;
+}
+
+ /* the facebook and content needs to come down */
+.header1{
+    /* background-color: red;
+    box-sizing: border-box;
+    margin-right: 800px;
+    text-align: center;
+    display: inline-block; */
+}
+
+
+
+.body1{
+    border: 1px solid rgb(245, 245, 245);
+    background-color: white;
+    float: right;
+    height: 350px;
+    width: 350px;
+    /* margin-right: 90px; */
+    padding: 30px;
+    text-align: center;
+    border-radius: 8px; 
+    /* margin-top: 30px;   */
+}
+
+input[type=email] {
+   width: 350px;
+   padding: 15px 20px;
+   box-sizing: border-box;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   border: 1px solid rgb(42, 147, 218);
+   border-radius: 5px;
+}
+
+ input[type=password]{
+    width: 350px;
+    padding: 15px 20px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: 1px solid rgb(42, 147, 218);
+    border-radius: 5px;
+    
+    
+}
+
+ input[type=submit] {
+   width: 350px;
+   margin-top: 20px;
+   padding: 10px 20px;
+   background-color: rgb(42, 147, 218);
+   border: 1px;
+   border-radius: 5px;
+   color: white;
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+
+p a{
+    text-decoration: none;
+}
+
+input[type=button]{
+    margin-top: 50px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: rgb(53, 190, 25);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 17px;
+    color: white;
+    border: none;
+}
+
+footer{
+    margin-top: 500px;
+    margin-left: 1150px;
+}
+footer a{
+    text-decoration: none;
+    color: black;
+    /* font-display: bold; */
+}
